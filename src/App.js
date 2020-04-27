@@ -77,6 +77,21 @@ function App() {
             </ScrollAnimation>
           </h2>
           <hr />
+
+          {/* Widdy */}
+          <Project 
+            title='Widdy'
+            tags={['React', 'Redux', 'Node.js', 'Express.js', 'SASS']}
+            body={<div>A visual environment for users to create and share widgets. Currently just
+                  an experiment but you can check out its current progress at the links above. 
+                  Inspired by <a href='https://cycling74.com/products/max/' target='_blank' rel="noopener noreferrer">
+                  Max</a>.</div>}
+            urls={['https://widdy.herokuapp.com/', 'https://github.com/Jinmo-K/Widdy']}
+            url_labels={['DEMO', <GitHubIcon/>]}
+            img_src={'https://user-images.githubusercontent.com/55267729/80406560-1c926d00-8879-11ea-8d1b-8126ac5ff796.png'}
+            img_size={PIC_SIZE}
+          />
+          <hr/>
           
           {/* PracTrack */}
           <Project 
