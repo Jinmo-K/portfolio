@@ -146,8 +146,6 @@ function App() {
                   Python and made an OOP app with a Tkinter UI to automate most of the process, 
                   including: scraping of the forms using Selenium, creation of PDFs, and e-mailing 
                   confirmations. This helps me get the work done about 3x faster."
-            urls={['https://github.com/Jinmo-K/CHS']}
-            url_labels={[<GitHubIcon/>]}
             img_src={'https://user-images.githubusercontent.com/55267729/78968395-5150a700-7ab9-11ea-941c-9f23d92aca79.png'}
             img_size={PIC_SIZE}
           />
