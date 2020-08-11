@@ -78,12 +78,40 @@ function App() {
           </h2>
           <hr />
 
+          {/* Musee */}
+          <Project 
+            title='Musee'
+            tags={['React', 'Redux', 'TypeScript']}
+            body='Under construction. Web app where users will be able to practice piano using their MIDI keyboard. 
+                  Features will include community-driven content, progress tracking, and various modes including test
+                  and play-along.'
+            urls={['https://github.com/Jinmo-K/Musee']}
+            url_labels={[<GitHubIcon/>]}
+            img_src={'https://user-images.githubusercontent.com/55267729/89841603-3a35ca80-db28-11ea-856b-68838f8d0ac0.png'}
+            img_size={PIC_SIZE}
+          />
+          <hr/>
+          
+          {/* MapSoc */}
+          <Project 
+            title='MapSoc'
+            tags={['React', 'TypeScript']}
+            body='Under construction. Web app where users will be able to create a graph representation of their social network. 
+                  They will be able to store details about their connections and relationships in order to never forget a name
+                  again!'
+            urls={['https://github.com/Jinmo-K/MapSoc']}
+            url_labels={[<GitHubIcon/>]}
+            img_src={'https://user-images.githubusercontent.com/55267729/89841411-acf27600-db27-11ea-9a3a-2b8524da3a9e.png'}
+            img_size={PIC_SIZE}
+            reverse
+          />
+          <hr />
+
           {/* Widdy */}
           <Project 
             title='Widdy'
             tags={['React', 'Redux', 'Node.js', 'Express.js', 'SASS']}
-            body={<div>A visual environment for users to create and share widgets. Currently just
-                  an experiment but you can check out its current progress at the links above. 
+            body={<div>A proof-of-concept for a visual environment where users can create and share widgets. 
                   Inspired by <a href='https://cycling74.com/products/max/' target='_blank' rel="noopener noreferrer">
                   Max</a>.</div>}
             urls={['https://widdy.herokuapp.com/', 'https://github.com/Jinmo-K/Widdy']}
@@ -110,15 +138,14 @@ function App() {
           <hr />
           {/* CHS */}
           <Project 
-            title='Campground Reservations v1 & v2'
-            tags={['Python', '', 'Rails', 'PostgreSQL', 'React', 'Redux']}
+            title='Campground Reservations'
+            tags={['Python']}
             body="Last summer I was asked to work remotely for my old workplace by
                   taking care of their reservations. They process all reservations manually and 
                   working remotely made the job even more tedious so I took the opportunity to learn
                   Python and made an OOP app with a Tkinter UI to automate most of the process, 
                   including: scraping of the forms using Selenium, creation of PDFs, and e-mailing 
-                  confirmations. This helps me get the work done about 3x faster. I'm currently 
-                  working on a web app version using React and Rails for future employees to use."
+                  confirmations. This helps me get the work done about 3x faster."
             urls={['https://github.com/Jinmo-K/CHS']}
             url_labels={[<GitHubIcon/>]}
             img_src={'https://user-images.githubusercontent.com/55267729/78968395-5150a700-7ab9-11ea-941c-9f23d92aca79.png'}
