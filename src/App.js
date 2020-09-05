@@ -95,13 +95,13 @@ function App() {
           {/* MapSoc */}
           <Project 
             title='MapSoc'
-            tags={['React', 'TypeScript']}
+            tags={['React', 'Redux', 'TypeScript']}
             body='Under construction. Web app where users will be able to create a graph representation of their social network. 
-                  They will be able to store details about their connections and relationships in order to never forget a name
-                  again!'
-            urls={['https://github.com/Jinmo-K/MapSoc']}
-            url_labels={[<GitHubIcon/>]}
-            img_src={'https://user-images.githubusercontent.com/55267729/89841411-acf27600-db27-11ea-9a3a-2b8524da3a9e.png'}
+                  They will be able to store information about their connections and relationships in order to never forget a name
+                  or important detail again!'
+            urls={['https://jinmo-k.github.io/MapSoc-client/', 'https://github.com/Jinmo-K/MapSoc']}
+            url_labels={['DEMO', <GitHubIcon/>]}
+            img_src={'https://user-images.githubusercontent.com/55267729/92292548-9a731e80-eed2-11ea-8fe5-4b09adb66f82.png'}
             img_size={PIC_SIZE}
             reverse
           />
